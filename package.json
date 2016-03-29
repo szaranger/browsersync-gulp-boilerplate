@@ -1,0 +1,21 @@
+{
+  "name": "browsersync-gulp",
+  "version": "1.0.0",
+  "description": "BrowserSync & Gulp boilerplate app",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BrowserSync",
+    "Gulp"
+  ],
+  "author": "Sean Amarasinghe",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
+}
