@@ -2,7 +2,7 @@
 
 This project serves as either a **very simple** boilerplate to start building an application using BrowserSync & Gulp.
 
-Please see the [walkthrough](http://seanamarasinghe.com/developer/) for a more thorough explanation of the code.
+Please see the [walkthrough](http://seanamarasinghe.com/developer/browsersync-gulp/) for a more thorough explanation of the code.
 
 ## Stack
 
@@ -15,7 +15,7 @@ Please see the [walkthrough](http://seanamarasinghe.com/developer/) for a more t
  In the project's directory, run the following commands:
 ```
  $ npm install
- $ npm start
+ $ gulp
 ```
 
 In Windows npm can not yet run operation in parallel so we add in npm-run-all<br />
@@ -29,5 +29,5 @@ Now install the packages with the following commands:
 ```
 $ npm install
 $ npm install --save-dev npm-run-all
-$ npm start
+$ gulp
 ```
